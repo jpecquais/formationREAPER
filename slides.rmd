@@ -12,3 +12,242 @@ output:
 ---
 
 # Voici REAPER
+
+---
+
+# Introduction à Reaper
+
+---
+
+# Présentation générale du logiciel
+
++ Développeurs américains : Cockos. Entreprise de Justin Frankel, créateur de Winamp
++ *Rapid Environment for Audio Production, Engineering and Recording*
++ Créé en 2006
++ A l'origine, le projet était concentré sur les traitements JSFX (Jesus Sound Effects) et sur le logiciel NINJAM permettant à des musiciens de jouer via internet.
++ Caractéristique : logiciel extrêmement personnalisable. Permet de s'adapter à des besoins très particulier. Par rapport aux autres STAN du marché : on apprend à se servir de Pro Tools, on apprend a personnaliser Reaper.
++ Objectif de la formation
+    + Se familiariser avec l'interface par défaut de Reaper
+    + Entrevoir les possibilités de personnalisations
+
+---
+
+# Installation du logiciel
+
++ Site internet : Reaper.fm
+    + Reaper n'utilise pas de logiciel dédier a la protection de licence (comme iLok)
+    + Période d'essais de 30 jours mais virtuellement illimitée.
++ Installation sous Windows
+    + Installation normale VS installation portable
+    + Trouver les fichiers de préférences *User/AppData/Roaming/REAPER*
++ Installation sous MacOS
+    + Créer plusieurs installations
++ Outils annexes a Reaper
+    + ReaRoute
+    + ReaMote
+    + JSFX
+
+---    
+
+# Découverte du logiciel
+
++ Configuration du logiciel
+    + Choisir son interface audio
+        + Taille du buffer
+        + Fréquence d'échantillonnage
+    + Configurer les sauvegardes automatiques
+    + Configuration des plug-ins VST, VST3 et AU
++ Configurer son projet
+    + Fréquence d'échantillonnage
+    + Répertoire de sauvegarde
+    + Références temporelle (musicale ou absolue)
++ Les différentes fenêtre du logiciel
+    + Le TCP
+    + Le MCP
+    + Le Track Manager
++ L'anatomie d'une piste
+    + Ses différents éléments (fader, pan, arm rec, monitoring, phase etc...)
+    + La généricité des pistes
+
+---
+
+# L'enregistrement dans REAPER
+
++ La gestion des prises (takes)
+    + Activer ou désactiver la création automatique de "take lanes"
++ Réaliser une collection de prises (comp)
++ Verrouiller son montage
++ Les modes d'enregistrement audio (auto, punch in time selection, punch in item selection)
+
+---
+
+# Le routage dans REAPER
+
++ Router les entrées et les sorties
+    + Via les pistes
+    + Via la matrice de routage
++ Routage interne
+    + Créer un bus : les dossiers de pistes
+    + Créer une piste auxiliaire
+    + Le statut du master dans REAPER
+    + Routage des FX : exemple de la compression en side-chain
+
+---
+
+# Le montage dans REAPER
+
++ Paramétrer la règle temporelle
++ Importer un fichier audio dans la session en utilisant le Media Explorer
++ La grille et le magnétisme
+    + La différence entre désactiver la grille ou le magnétisme
++ Manipulation de l'audio
+    + Déplacer l'information audio
+        + Bouger un objet
+        + Bouger le contenu d'un objet
+    + Couper un objet
+        + Couper au curseur d'édition
+        + Couper à la selection de temps
+    + Rogner un objet
+    + Créer et éditer un fondu et un fondu enchaîné
+        + Fondus par défaut
+    + Modifier le gain d'un objet
+    + Etirer les objets audios
+    + Créer des marqueurs d'étirement audio
++ Les repères de la ligne temporelle
+    + Les marqueurs
+    + Les régions
++ Quelques cas pratiques
+    + Gestion de multiple fréquence d'échantillonnages au sein d'un projet
+    + Convertir un objet stéréo en deux objets monos
+    + Convertir deux objets mono en un objet stéréo
++ Le Ripple-editing
+    + Via la boîte outil principale
+    + Via les "mouse-modifier"
+
+---
+
+# Le mixage dans REAPER
+
++ La librairie d'effet Reaper
+    + ReaEQ
+    + ReaComp
+    + ReaXComp
+    + ReaFIR
+    + etc..
++ Les JSFX
+    + Time adjustement delay
+    + etc..
++ L'automation
+    + Les modes d'automations
+    + La gestion des lignes d'automation
++ Les groupes de pistes
++ Rendre ou geler une piste
+
+---
+
+# Le MIDI dans REAPER
+
++ Configurer un clavier maître
++ Fonctionnement d'un "Learn" de paramètre
++ Associer une macro a une commande MIDI
+
+---
+
+# L'OSC dans REAPER
+
++ Qu'est ce que l'Open Sound Control
++ Configurer des canaux d'émissions et de récéptions
++ Modifier la table OSC de REAPER
+
+---
+
+# Les Web Remote dans REAPER
+
++ Qu'est-ce qu'une web remote et quels sont ses applications ?
++ Configurer une web remote
+
+---
+
+# Dépanner une session REAPER
+
++ Retrouver ses sources audio manquantes
++ Ouvrir une session avec les effets plug-ins hors ligne
++ Découvrir la fenêtre Project/FX Bay
+
+---
+
+# Les exports dans REAPER
+
++ Faire un rendu en ligne
++ Faire un rendu hors-ligne
++ Enregistrer son travail sur une piste
++ Dans quel cas choisir chaque méthode
++ La matrice de rendu
++ L'utilitaire de conversion de fichiers
+
+---
+
+# Configurer le moteur audio de REAPER
+
++ Optimiser pour le temps réel
++ Optimiser pour la puissance de calcule
+
+---
+
+# Personnaliser REAPER
+
++ L'action list
+    + Trouver une commande : le vocabulaire de REAPER
+    + Configurer un nouveau raccourci : insérer un objet du media explorer dans le mode loop
+    + Créer une macro : exemple gérer le clip gain
++ Création de menus
++ Les mouse modifiers
+    + Découvrir les différents contexts
+    + Changer une commande
++ Exporter et importer une configuration personnalisée
+
+---
+
+# Les extensions REAPER
+
++ SWS extension
+    + Les ajouts dans l'action list
+    + Les nouvelles fonction (snapshots, autocolor, cuebus generator)
++ ReaPack
++ Les scripts Reaper
+    + Découvrir l'API ReaScript
+    + (TP ?)
++ Editer un JSFX
+    + Découvrir l'API JSFX
+    + (TP ?)
+
+---
+
+# Son immersifs et REAPER
+
++ Les atouts de REAPER pour des productions sonores 3D
++ Présentation et workflow
+    + Ambisonie & binaural
+        + [https://www.ambisonictoolkit.net/](https://www.ambisonictoolkit.net/)
+        + [https://plugins.iem.at/](https://plugins.iem.at/)
+    + Channel-based
+        + ReaSurround
+
+---
+
+# ReaVolution
+
++ Présentation du projet
++ Installer ReaVolution
++ Fonctions d'édition
++ Fonctions de mixage
++ La librairie Audio Stream
++ Compatibilité avec Spat Revolution
+
+---
+
+# Pour aller plus loin
+
++ La documentation officielle
++ Le forum officiel de Reaper
++ Le groupe facebook Reaper User Group
