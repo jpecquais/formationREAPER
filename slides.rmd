@@ -1,0 +1,14 @@
+---
+title: "Formation REAPER"
+subtitle: "de Cockos"
+author: "Jean-Loup Pecquais"
+date: "2021/11/28"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+# Voici REAPER
