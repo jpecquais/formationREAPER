@@ -1,0 +1,29 @@
+---
+title: "Formation prise de son et mixage"
+subtitle: "Evaluation"
+author: "Jean-Loup Pecquais"
+date: "2021/11/28"
+output:
+  pdf_document: default
+---
+
+1. Sait utiliser la vue session.
+    + Acquis
+    + En cours d'acquisition
+    + Non acquis
+1. Sait utiliser la vue édition.
+    + Acquis
+    + En cours d'acquisition
+    + Non acquis
+1. Comprend les mécanismes de routage.
+    + Acquis
+    + En cours d'acquisition
+    + Non acquis
+1. Sait utiliser les différents effets et instruments fournis avec l'application
+    + Acquis
+    + En cours d'acquisition
+    + Non acquis
+1. Sait déployer le logiciel dans une configuration scénique.
+    + Acquis
+    + En cours d'acquisition
+    + Non acquis

@@ -1,0 +1,29 @@
+---
+title: "Formation REAPER"
+subtitle: "Evaluation des acquis"
+author: "Jean-Loup Pecquais"
+date: "2021/11/28"
+output:
+  pdf_document: default
+---
+
+1. Sait utiliser la vue édition (TCP).
+    + Acquis
+    + En cours d'acquisition
+    + Non acquis
+1. Sait utiliser le vue mixage (MCP).
+    + Acquis
+    + En cours d'acquisition
+    + Non acquis
+1. Comprend les fonctions de routage.
+    + Acquis
+    + En cours d'acquisition
+    + Non acquis
+1. Sait personnaliser l'interface du logiciel en fonction de ses besoins.
+    + Acquis
+    + En cours d'acquisition
+    + Non acquis
+1. Est capable de retrouver une information dans le logiciel.
+    + Acquis
+    + En cours d'acquisition
+    + Non acquis

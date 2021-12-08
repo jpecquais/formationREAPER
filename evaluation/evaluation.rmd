@@ -1,0 +1,9 @@
+---
+title: "Formation prise de son et mixage"
+subtitle: "Evaluation"
+author: "Jean-Loup Pecquais"
+date: "2021/11/28"
+output:
+  pdf_document: default
+---
+
